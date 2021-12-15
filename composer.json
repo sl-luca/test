@@ -1,0 +1,12 @@
+{
+    "name": "luca/composer-test",
+    "description": "composer test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "luca",
+            "email": "654115233@qq.com"
+        }
+    ],
+    "require": {}
+}
