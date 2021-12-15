@@ -2,11 +2,23 @@
     "name": "sl-luca/composer-test",
     "description": "composer test",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "luca",
             "email": "654115233@qq.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "stable",
+    "autoload": {
+      "files":[
+        "src/lib/helper.php"
+      ],
+      "psr-4": {
+        "Test\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    }
 }
